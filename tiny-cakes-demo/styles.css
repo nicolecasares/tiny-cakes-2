@@ -1,0 +1,132 @@
+body {
+	background: url(images/bg.png) repeat center center;
+}
+.container-fluid {
+	padding: 0;
+}
+header {
+	background: #fff;
+}
+header h2 {
+	background: #fff;
+	display: inline-block;
+	border: 5px solid #dea0f6;
+	padding: 20px;
+	margin-left: -100px;
+	font-weight: 300;
+	font-size: 40px;
+}
+.logo {
+	padding-right: 20px;
+	text-align: right;
+}
+nav li {
+	display: inline-block;
+	padding: 0 5px;
+}
+nav li a{
+	display: block;
+	padding: 10px 0;
+	border-bottom: 3px solid #ccc;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 18px;
+	font-weight: 300;
+	color: #5f965d;
+	transition: ease .5s all;
+}
+nav li a:hover{
+	padding: 10px 0 20px;
+	border-bottom: 3px solid #ccc;
+	text-decoration: none;
+	color: #5f965d;
+}
+section{
+	background: white;
+}
+section img {
+	min-width: 100%;
+}
+#about, #history {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#about h2 {
+	display: inline-block;
+	margin: 20px;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #ccc;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #333;
+}
+#about p, #history p {
+	max-width: 800px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	line-height: 26px;
+	text-align: left;
+	font-size: 16px;
+}
+#history {
+	text-align: center;
+}
+#history h2 {
+	display: inline-block;
+	margin: 20px;
+	padding: 15px;
+	border: 5px solid #78ddf9;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #333;
+}
+#store {
+	background: #e5cc70 url(images/bg.png) repeat-y right;
+	padding-bottom: 80px;
+}
+#store h2 {
+	display: inline-block;
+	margin: 20px;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #333;
+}
+#store img {
+	background: #fff;
+	display: inline-block;
+	width: auto;
+	min-width: auto;
+	padding: 5px;
+	margin: 5px;
+}
+footer {
+	background: #78ddf9;
+	text-align: center;
+}
+#contact h3 {
+	display: inline-block;
+	margin: 20px;
+	padding: 15px;
+	border: 5px solid #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #fff;
+}
+footer .map {
+	text-align: center;
+}
+footer .map img{
+	background: #fff;
+	margin: 20px;
+	padding: 10px;
+}
+footer .copy {
+	background: #2f6878;
+	padding: 20px;
+	color: #fff;
+}

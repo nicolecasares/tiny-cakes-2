@@ -1,0 +1,76 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+body {
+	margin: 0;
+	background-image: url(images/symphony.png);
+}
+
+header{
+	border-image: url(images/symphony.png)
+}
+
+nav {
+	background: #70d96c;
+	text-transform: lowercase;
+	padding: 20px;
+	margin: 0 auto 20px auto;
+}
+
+li {
+	display: inline-block;
+
+}
+
+a{
+	color: black;
+	text-align: center;
+
+}
+
+header img {
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.jumbotron{
+	text-align: center;
+
+}
+
+main{
+	background: white;
+}
+
+section {
+	background: #d3fcd2;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+h2 {
+	color: #fa93f6;
+	font-family: 'Open Sans', sans-serif
+	font-weight: bold;
+	text-transform: lowercase;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif
+}
+
+.contact {
+	background: white;
+	padding: 30px;
+	display: flex;
+}
+
+
+footer {
+	background: #828fa3;
+	padding: 20px;
+}
+
+
+
+
