@@ -1,63 +1,159 @@
 /*font-family: 'Open Sans', sans-serif;*/
 
 body {
-	margin: 0;
-	background-image: url(images/symphony.png);
-}
-
-header{
-	border-image: url(images/symphony.png)
-}
-
-nav {
-	background: #70d96c;
-	text-transform: lowercase;
-	padding: 20px;
-	margin: 0 auto 20px auto;
-}
-
-li {
-	display: inline-block;
-
-}
-
-a{
-	color: black;
-	text-align: center;
-
-}
-
-header img {
 	margin: 0 auto;
-	text-align: center;
-
+	max-width: 100%;
+	background: #D3CFD0;
 }
 
-.jumbotron{
-	text-align: center;
-
-}
-
-main{
-	background: white;
-}
-
-section {
-	background: #d3fcd2;
-	padding: 20px;
-	margin-top: 20px;
-}
+/*these are universal styles*/
 
 h2 {
-	color: #fa93f6;
-	font-family: 'Open Sans', sans-serif
-	font-weight: bold;
+	/*color: #fa93f6;
+*/	color: #7CC67A;
+	font-family: 'Open Sans', sans-serif;
+	/*font-weight: bold;*/
 	text-transform: lowercase;
+}
+
+h6 {
+	font-size: 15px;
+	font-weight: bold;
 }
 
 p {
 	font-family: 'Open Sans', sans-serif
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*these are header styles*/
+
+.jumbotron{
+	text-align: center;
+	padding-bottom: 0px;
+	margin-bottom: 0; 
+
+}
+
+header{
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background: #FAF1DC; 
+
+}
+
+header img {
+	/*padding: 30px;*/
+	padding: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+/*This Section is the the nav*/
+nav {
+	background: brown;
+	text-transform: lowercase;
+	padding: 0px;
+	margin: 0;
+	text-align: center;
+	height: 30px;
+
+}
+
+li {
+	display: inline-block;
+	line-height: 30px;
+
+	
+
+}
+
+a{
+	color: white;
+	margin: 5px;
+
+
+}
+
+a:hover {
+	text-decoration: none;
+	color: #7CC67A;
+	font-size: 20px;
+	transition: ease 1s;
+
+	
+
+}
+
+
+/*these are styles for the main section*/
+
+main {
+	border-image: url(images/symphony.png)
+}
+
+main img {
+	padding: 30px;
+}
+
+main h2 {
+	font-size: 50px;
+	padding-top: 20px;
+}
+
+main p {
+	line-height: 1.8em;
+
+}
+
+
+main{
+	background: white;
+	padding: 40px
+}
+
+
+
+/*these are styles for the shop section*/
+
+section {
+	padding: 20px;
+	margin-top: 20px;
+	background: brown;
+	padding-bottom: 50px;
+}
+
+section div {
+	margin: 0 auto;
+}
+
+section img {
+	margin: 10px;
+	text-align: center;
+	border: 5px white solid;
+
+}
+
+section h2 {
+	font-size: 60px;
+	color: white;
+}
+
+section h3 {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+
+}
+
+/*
+these are styles for the contact section*/
 
 .contact {
 	background: white;
@@ -65,12 +161,44 @@ p {
 	display: flex;
 }
 
-
-footer {
-	background: #828fa3;
-	padding: 20px;
+.contact h2{
+	font-size: 60px;
 }
 
+/*these are styles for the footer 
+*/
+footer {
+	padding: 20px;
+	background: brown;
+}
+
+
+
+/*These are the media quires for desktop*/ 
+
+@media only screen and (min-width: 500px) {
+    
+     body {
+	margin: 0 auto;
+	max-width: 100%;
+	background-image: url(images/symphony.png);
+
+    }
+}
+
+@media only screen and (min-width: 730px) {
+    header img {
+        padding: 100px;
+    }
+}
+
+@media only screen and (min-width: 730px) {
+    header  {
+       background-image: url(images/rose-cupcake.jpg);
+       background-repeat: no-repeat;
+	 	background-size: cover;
+    }
+}
 
 
 
